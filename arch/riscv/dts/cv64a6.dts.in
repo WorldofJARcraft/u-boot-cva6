@@ -100,6 +100,7 @@
       xlnx,num-ss-bits = <0x1>;
       xlnx,num-transfer-bits = <0x8>;
       xlnx,sck-ratio = <0x4>;
+      fifo-size = <256>;
 
       mmc@0 {
         compatible = "mmc-spi-slot";
